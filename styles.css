@@ -283,3 +283,33 @@ button:focus {
 }
 
 }
+
+/* Contact */
+
+.container-contact-fluid {
+  padding: 1%;
+}
+
+.contact-title {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.contact-input {
+  width: 950px;
+  height: 50px;
+  border-radius: 2.5rem;
+  outline: none;
+  text-align: center;
+  z-index: 2;
+}
+
+.pesan-input {
+  width: 950px;
+  height: 200px;
+  border-radius: 2.5rem;
+  outline: none;
+  text-align: center;
+  z-index: 2;
+}
