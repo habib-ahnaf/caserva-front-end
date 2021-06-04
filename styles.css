@@ -113,7 +113,6 @@ button:focus {
   background: #424928;
   color: #fff;
 }
-
 /* Title Section */
 
 #title {
@@ -164,7 +163,7 @@ button:focus {
 
 .card{
     max-width: 100%;
-    margin: 2% 10%;
+    margin: 10% 10%;
     text-align: left;
     border: none;
 }
@@ -178,8 +177,31 @@ button:focus {
     width: 88%!important;
 }
 
+.kategori2-img{
+    display: none;
+}
+
 .kategori-title{
-    margin: 10% 0;
+    margin: 0 0 10% 0;
+}
+
+.card-group{
+    margin: 0% 10%;
+}
+
+.card-group2{
+    margin: 0% 26%;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.section-title{
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 @media (max-width: 1028px) {
@@ -245,4 +267,19 @@ button:focus {
   .card-img-top{
       width: 100%!important;
   }
+
+  
+.kategori2-img{
+    display: contents;
+}
+  
+.kategori2-img2{
+    display: none;
+}
+
+
+.card-group2{
+    margin: 0% 10%;
+}
+
 }
