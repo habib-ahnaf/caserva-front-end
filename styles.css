@@ -41,6 +41,10 @@ button:focus {
   font-size: 1.2rem;
 }
 
+.heading{
+    margin-top: 5%;
+}
+
 .section-heading {
   font-size: 3rem;
   line-height: 1.5;
@@ -158,6 +162,26 @@ button:focus {
   text-align: center;
 }
 
+.card{
+    max-width: 100%;
+    margin: 2% 10%;
+    text-align: left;
+    border: none;
+}
+
+.card-img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.card-img-top{
+    width: 88%!important;
+}
+
+.kategori-title{
+    margin: 10% 0;
+}
+
 @media (max-width: 1028px) {
   #title {
     text-align: center;
@@ -212,5 +236,13 @@ button:focus {
     font-weight: bold;
     font-size: 2rem;
     text-align: center;
+  }
+  
+  .card-img{
+      width: 100%;
+  }
+
+  .card-img-top{
+      width: 100%!important;
   }
 }
